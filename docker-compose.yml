@@ -1,0 +1,8 @@
+services:
+  drawdb:
+    build:
+      dockerfile: Dockerfile
+    restart: always
+    container_name: drawdb
+    ports:
+      - "3000:80"
